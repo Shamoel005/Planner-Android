@@ -34,7 +34,7 @@ Most to-do apps are either too simple (a flat list) or too heavy (accounts, subs
 
 ## Two apps, one data format
 
-### Android (`/Planner`)
+### Android (`/Planner-Android`)
 - **Kotlin + Jetpack Compose (Material 3)**, no third-party libraries
 - Custom design system: dark/light themes, dot-matrix digits rendered with Compose `Canvas`, dot-based progress bars
 - Local persistence in app-private storage (JSON)
@@ -43,7 +43,7 @@ Most to-do apps are either too simple (a flat list) or too heavy (accounts, subs
 - Backup/restore through the **Storage Access Framework**
 - Adaptive launcher icon (vector, with themed-icon support)
 
-### macOS (`/PlannerDesk`)
+### macOS (`/Planner-Mac`)
 - **SwiftUI + AppKit**, Swift Package Manager (no Xcode project needed)
 - Borderless, translucent panel pinned at **desktop window level**, so it behaves like a widget
 - Frosted glass (`NSVisualEffectView`), per-tab colour themes, animated progress ring
